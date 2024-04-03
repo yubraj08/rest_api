@@ -14,3 +14,6 @@ deactivate [for deactivating]
 
 
 pip freeze > requirements.txt
+
+
+python -m uvicorn main:app --reload
